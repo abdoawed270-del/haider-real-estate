@@ -838,7 +838,7 @@ html[dir="ltr"] .slider__caption {
   background:
     radial-gradient(circle at 18% 18%, rgba(244, 231, 211, 0.18), transparent 30%),
     linear-gradient(90deg, rgba(15, 11, 9, 0.86), rgba(15, 11, 9, 0.18)),
-    url("ChatGPT Image May 9, 2026, 06_04_18 PM.png") center / cover;
+    url("images/ChatGPT Image May 9, 2026, 06_04_18 PM.png") center / cover;
   transform: translateY(var(--parallax, 0));
 }
 
@@ -846,7 +846,7 @@ html[dir="rtl"] .cinema__bg {
   background:
     radial-gradient(circle at 82% 18%, rgba(244, 231, 211, 0.18), transparent 30%),
     linear-gradient(270deg, rgba(15, 11, 9, 0.86), rgba(15, 11, 9, 0.18)),
-    url("ChatGPT Image May 9, 2026, 06_04_18 PM.png") center / cover;
+    url("images/ChatGPT Image May 9, 2026, 06_04_18 PM.png") center / cover;
 }
 
 .cinema__content {
