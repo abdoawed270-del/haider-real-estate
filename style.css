@@ -113,7 +113,7 @@ body:not(.is-loading) .loader {
   pointer-events: none;
   position: fixed;
   inset: 0;
-  z-index: 80;
+  z-index: 3;
   opacity: 0.08;
   background-image:
     radial-gradient(circle at 22% 11%, rgba(255, 255, 255, 0.7) 0 1px, transparent 1px),
@@ -252,7 +252,7 @@ html[dir="rtl"] .hero__overlay {
 
 .hero__content {
   position: relative;
-  z-index: 1;
+  z-index: 4;
   width: min(900px, 100%);
   animation: fadeUp 0.9s ease both 0.25s;
 }
@@ -276,12 +276,42 @@ p {
 h1 {
   max-width: 980px;
   margin-bottom: 24px;
-  font-size: clamp(3rem, 9.4vw, 7.8rem);
+  font-size: clamp(2.7rem, 8.4vw, 6.9rem);
   font-weight: 700;
   line-height: 1.04;
   letter-spacing: 0;
   text-wrap: balance;
   text-shadow: 0 28px 70px rgba(0, 0, 0, 0.44);
+}
+
+.hero-title-text {
+  position: relative;
+  z-index: 81;
+  display: inline;
+  color: #fff7ea !important;
+  background: none !important;
+  background-image: none !important;
+  -webkit-background-clip: initial !important;
+  background-clip: initial !important;
+  -webkit-text-fill-color: #fff7ea !important;
+  mix-blend-mode: normal !important;
+  isolation: isolate !important;
+  mask: none !important;
+  -webkit-mask: none !important;
+  text-shadow: none;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricPrecision;
+  font-size: 100px;
+}
+
+.hero-title-text::before,
+.hero-title-text::after {
+  content: none !important;
+  display: none !important;
+  background: none !important;
+  background-image: none !important;
+  mask: none !important;
+  -webkit-mask: none !important;
 }
 
 h1 small {
@@ -1100,7 +1130,7 @@ body[data-theme="night"] {
   }
 
   h1 {
-    font-size: clamp(2.72rem, 14vw, 4.35rem);
+    font-size: clamp(2.35rem, 12.5vw, 3.8rem);
     line-height: 1.04;
   }
 
