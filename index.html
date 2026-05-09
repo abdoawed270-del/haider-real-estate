@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="HAIDER REAL ESTATE - Premium bilingual real estate consultant landing page in Qatar." />
+  <title>HAIDER REAL ESTATE | مستشارك العقاري في قطر مع حيدر</title>
+  <!-- Local setup: run `npm install`, then `npm run dev` to serve this page with Vite at localhost. -->
+  <!-- Keep style.css, main.js, and image filenames in the project root so the existing asset paths stay valid. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="is-loading" data-theme="day">
+  <div class="loader" aria-label="Loading website">
+    <div class="loader__mark">HAIDER</div>
+    <div class="loader__line"></div>
+  </div>
+
+  <div class="progress" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="HAIDER REAL ESTATE">
+      <span>HAIDER</span>
+      <small>REAL ESTATE</small>
+    </a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#overview" data-i18n="navOverview">نظرة عامة</a>
+      <a href="#gallery" data-i18n="navGallery">المعرض</a>
+      <a href="#features" data-i18n="navFeatures">المزايا</a>
+      <a href="#contact" data-i18n="navContact">تواصل</a>
+    </nav>
+    <div class="header-actions">
+      <button class="lang-toggle" type="button" data-lang-toggle aria-label="Switch language">EN</button>
+      <button class="nav-theme-toggle" type="button" data-theme-toggle aria-label="Toggle day and night mode">
+        <span data-theme-label>الوضع الليلي</span>
+      </button>
+      <a class="header-call phone-number" href="tel:+97474459589" aria-label="Call +974 7445 9589" dir="ltr">+974 7445 9589</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero section-observe">
+      <picture>
+        <source media="(max-width: 640px)" srcset="ChatGPT Image May 9, 2026, 06_04_18 PM.png" />
+        <img class="hero__media" src="ac526775-1ce3-4d7d-9ae5-148fed27a7c0.png" alt="Premium villa exterior in Qatar" />
+      </picture>
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <p class="eyebrow" data-i18n="heroEyebrow">فيلا خدمي للإيجار في الشاحينية</p>
+        <h1>
+          <span data-i18n="heroTitle">مستشارك العقاري في قطر مع حيدر</span>
+          <small>HAIDER REAL ESTATE</small>
+        </h1>
+        <p class="hero__lead" data-i18n="heroLead">فيلا عائلية واسعة بجوار المدارس والمحلات، بتفاصيل عملية ومساحات استقبال أنيقة.</p>
+        <div class="hero__meta" aria-label="Villa highlights">
+          <span data-i18n="heroArea">500 متر</span>
+          <span data-i18n="heroRooms">6 غرف مستر</span>
+          <span data-i18n="heroPrice">15,000 ريال</span>
+        </div>
+        <div class="hero__panel" aria-label="Property summary">
+          <span data-i18n="heroPanelLocation">الشاحينية، قطر</span>
+          <strong data-i18n="heroPanelPrice">15,000 ريال / شهريا</strong>
+          <small data-i18n="heroPanelNote">معاينة خاصة عبر واتساب</small>
+        </div>
+        <div class="hero__actions">
+          <a class="btn btn--ghost" href="#gallery" data-i18n="viewGallery">شاهد الصور</a>
+          <a class="btn btn--primary btn--whatsapp" href="https://wa.me/97474459589" target="_blank" rel="noopener" data-i18n="whatsappCta">تواصل واتساب</a>
+        </div>
+      </div>
+      <a class="whatsapp-float" href="https://wa.me/97474459589" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <span>WhatsApp</span>
+      </a>
+    </section>
+
+    <section id="overview" class="section overview section-observe">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="overviewEyebrow">نظرة راقية على العقار</p>
+        <h2 data-i18n="overviewTitle">مساحات مصممة لحياة عائلية مريحة</h2>
+      </div>
+      <div class="overview-grid">
+        <article class="glass-card">
+          <strong data-i18n="statArea">500 متر مربع</strong>
+          <span data-i18n="statAreaLabel">مساحة العقار</span>
+        </article>
+        <article class="glass-card">
+          <strong data-i18n="statBedrooms">6 غرف مستر</strong>
+          <span data-i18n="statBedroomsLabel">خصوصية وراحة</span>
+        </article>
+        <article class="glass-card">
+          <strong data-i18n="statMajlis">مجلس منفصل</strong>
+          <span data-i18n="statMajlisLabel">مع حمام ومغاسل</span>
+        </article>
+        <article class="glass-card">
+          <strong data-i18n="statLocation">موقع خدمي</strong>
+          <span data-i18n="statLocationLabel">قريب من المدارس والمحلات</span>
+        </article>
+        <article class="glass-card glass-card--accent">
+          <strong data-i18n="statPrice">15,000 ريال</strong>
+          <span data-i18n="statPriceLabel">المطلوب شهريا</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section section-observe">
+      <div class="section-head section-head--split">
+        <div>
+          <p class="eyebrow" data-i18n="galleryEyebrow">معرض الصور</p>
+          <h2 data-i18n="galleryTitle">لقطات مختارة من الفيلا</h2>
+        </div>
+        <div class="gallery-controls" aria-label="Gallery controls">
+          <button type="button" data-gallery-prev aria-label="Previous gallery image">&lsaquo;</button>
+          <button type="button" data-gallery-next aria-label="Next gallery image">&rsaquo;</button>
+        </div>
+      </div>
+
+      <div class="slider" aria-label="Featured property photos">
+        <img src="ChatGPT Image May 9, 2026, 06_20_45 PM.png" alt="Villa exterior wide view" />
+        <img src="ChatGPT Image May 9, 2026, 05_37_31 PM.png" alt="Bright main hall" />
+        <img src="ChatGPT Image May 9, 2026, 06_52_03 PM.png" alt="Villa kitchen" />
+        <div class="slider__caption">
+          <span data-i18n="sliderCaption">واجهة، صالات، مطبخ، وغرف عائلية جاهزة للمعاينة</span>
+        </div>
+      </div>
+
+      <div class="masonry" data-gallery>
+        <button class="masonry__item tall" type="button"><img loading="lazy" src="ChatGPT Image May 9, 2026, 06_04_18 PM.png" alt="Villa front elevation" /></button>
+        <button class="masonry__item" type="button"><img loading="lazy" src="ChatGPT Image May 9, 2026, 05_29_45 PM.png" alt="Bedroom with wood flooring" /></button>
+        <button class="masonry__item tall" type="button"><img loading="lazy" src="BATH.png" alt="Washbasin bathroom detail" /></button>
+        <button class="masonry__item" type="button"><img loading="lazy" src="ChatGPT Image May 9, 2026, 05_34_51 PM.png" alt="Spacious living room" /></button>
+        <button class="masonry__item" type="button"><img loading="lazy" src="ChatGPT Image May 9, 2026, 05_52_15 PM.png" alt="Majlis room" /></button>
+        <button class="masonry__item tall" type="button"><img loading="lazy" src="ChatGPT Image May 9, 2026, 06_52_03 PM.png" alt="Kitchen and cabinetry" /></button>
+        <button class="masonry__item" type="button"><img loading="lazy" src="ChatGPT Image May 9, 2026, 05_44_33 PM.png" alt="Bathroom with arched window" /></button>
+        <button class="masonry__item" type="button"><img loading="lazy" src="ChatGPT Image May 9, 2026, 05_56_23 PM.png" alt="Bedroom with arched windows" /></button>
+      </div>
+    </section>
+
+    <section id="features" class="section features section-observe">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="featuresEyebrow">المزايا</p>
+        <h2 data-i18n="featuresTitle">كل ما تحتاجه العائلة في موقع واحد</h2>
+      </div>
+      <div class="features-grid">
+        <article data-i18n="featureSchools">قريب من المدارس</article>
+        <article data-i18n="featureShops">قريب من المحلات</article>
+        <article data-i18n="featureHalls">صالتان واسعتان</article>
+        <article data-i18n="featureMajlis">مجلس منفصل</article>
+        <article data-i18n="featureAnnex">ملحق خارجي</article>
+        <article data-i18n="featureBedrooms">6 غرف مستر</article>
+        <article data-i18n="featureDining">مقلط</article>
+        <article data-i18n="featureFamily">فيلا عائلية</article>
+      </div>
+    </section>
+
+    <section class="cinema section-observe" aria-label="Cinematic villa section">
+      <div class="cinema__bg"></div>
+      <div class="cinema__content">
+        <p class="eyebrow" data-i18n="cinemaEyebrow">إحساس سينمائي</p>
+        <h2 data-i18n="cinemaTitle">واجهة هادئة ومساحات داخلية مشرقة</h2>
+        <p data-i18n="cinemaText">تجربة عقارية فاخرة تبدأ من الانطباع الأول وتنتهي بتفاصيل عملية تناسب الحياة اليومية.</p>
+      </div>
+    </section>
+
+    <section class="section mode section-observe">
+      <div class="section-head section-head--split">
+        <div>
+          <p class="eyebrow" data-i18n="modeEyebrow">تصور النهار والليل</p>
+          <h2 data-i18n="modeTitle">نفس الفيلا، مزاجان مختلفان</h2>
+        </div>
+        <button class="mode-toggle" type="button" data-theme-toggle>
+          <span data-theme-label>الوضع الليلي</span>
+        </button>
+      </div>
+      <div class="mode-card">
+        <img loading="lazy" src="ChatGPT Image May 9, 2026, 05_37_31 PM.png" alt="Day and night villa mood preview" />
+        <div>
+          <h3 data-i18n="modeCardTitle">نهار دافئ أو ليل سينمائي</h3>
+          <p data-i18n="modeCardText">بدل بين الإحساسين لترى كيف تتحول الصفحة من دفء عائلي مشرق إلى حضور عقاري داكن وفاخر.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="final-cta section-observe">
+      <img loading="lazy" src="ChatGPT Image May 9, 2026, 06_20_45 PM.png" alt="Villa exterior final call to action" />
+      <div class="final-cta__overlay"></div>
+      <div class="final-cta__content">
+        <p class="eyebrow">HAIDER REAL ESTATE</p>
+        <h2 data-i18n="finalTitle">احجز معاينتك الآن</h2>
+        <p data-i18n="finalText">فيلا خدمي للإيجار في الشاحينية بجوار المدارس والمحلات.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary btn--whatsapp" href="https://wa.me/97474459589" target="_blank" rel="noopener" data-i18n="finalWhatsapp">تواصل واتساب</a>
+          <a class="btn btn--ghost phone-number" href="tel:+97474459589" dir="ltr">+974 7445 9589</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>HAIDER REAL ESTATE</strong>
+      <p data-i18n="footerLine">مستشارك العقاري في قطر مع حيدر</p>
+    </div>
+    <nav aria-label="Footer navigation">
+      <a href="#home" data-i18n="footerHome">الرئيسية</a>
+      <a href="#overview" data-i18n="footerOverview">العقار</a>
+      <a href="#gallery" data-i18n="footerGallery">الصور</a>
+      <a href="#contact" data-i18n="footerContact">تواصل</a>
+    </nav>
+    <div class="footer__contact">
+      <a class="phone-number" href="tel:+97474459589" dir="ltr">+974 7445 9589</a>
+      <a href="https://wa.me/97474459589" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </footer>
+
+  <a class="mobile-whatsapp btn--whatsapp" href="https://wa.me/97474459589" target="_blank" rel="noopener" data-i18n="mobileWhatsapp">تواصل واتساب</a>
+
+  <div class="lightbox" data-lightbox aria-hidden="true">
+    <button type="button" data-lightbox-close aria-label="Close image">&times;</button>
+    <img src="" alt="" />
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
